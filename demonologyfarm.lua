@@ -28,7 +28,7 @@ _G.PresetName = "Farm" -- if using a preset, put the name of it here.
 -- Presets are case sensitive and must be exactly the same as the preset in the game. If you want to use a preset, you must also set _G.presetenabled to true.
 
 _G.presetenabled = true
-_G.Map = "Cafe"
+_G.Map = "Prison"
 _G.Challenge = false -- set to true to enable Blindness challenge, only works if its in todays challenges.
 --[[
     Valid maps (case sensitive):
