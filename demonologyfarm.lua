@@ -16,7 +16,7 @@ if not game:IsLoaded() then
 end
 
 _G.Webhook = ""
-_G.Items = {"Photo Camera"} 
+_G.Items = {""} 
 --[[
     Valid items (case sensitive):
     "Cross", "Photo Camera", "Plushie"
@@ -24,12 +24,12 @@ _G.Items = {"Photo Camera"}
     if you want more than one then heres an example: 
      _G.Items = {"Cross", "Photo Camera"}
 ]]
-_G.PresetName = "" -- if using a preset, put the name of it here. 
+_G.PresetName = "Farm" -- if using a preset, put the name of it here. 
 -- Presets are case sensitive and must be exactly the same as the preset in the game. If you want to use a preset, you must also set _G.presetenabled to true.
 
-_G.presetenabled = false
-_G.Map = "Juniper Road"
-_G.Challenge = true -- set to true to enable Blindness challenge, only works if its in todays challenges.
+_G.presetenabled = true
+_G.Map = "Cafe"
+_G.Challenge = false -- set to true to enable Blindness challenge, only works if its in todays challenges.
 --[[
     Valid maps (case sensitive):
     "Fenway Drive", "Juniper Road", "Lincoln St", "Bodega",
@@ -41,6 +41,6 @@ _G.Difficulty = 3 -- 0=easy, 1=medium, 2=hard, 3=nightmare
 
 _G.Rotation = {"Fenway Drive", "Juniper Road"} -- if you want to rotate maps, put the maps you want to rotate here. 
 -- example: {"Fenway Drive", "Juniper Road"}
-_G.Randomize = true -- set to true to randomize the maps in the rotation.
+_G.Randomize = false -- set to true to randomize the maps in the rotation.
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/Demonology%20Auto%20Farm"))()
